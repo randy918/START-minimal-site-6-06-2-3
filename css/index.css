@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/Acorn-Bold.woff");
+}
+@font-face {
+  font-family: "Light";
+  src: url("../fonts/Acorn-Light.woff");
+}
+* {
+  background: red;
+  block: inline-block;
+  font-family: "Light";
+  background: red;
+  color: black;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */
