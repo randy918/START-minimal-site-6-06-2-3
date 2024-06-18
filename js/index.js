@@ -12,11 +12,22 @@
 //_  ████████████████████████████████████  VARIABLE EXPRESSIONS
 
 
-//<  ████████████████████████████████████  OBJECTS
+//_  ████████████████████████████████████  FUNCTION FACTORIES
 
 
 
+function Circle(radius) {
+    this.radius, 
+    this.draw = function ()  {
+c('draw');
+
+    }
 
 
-//>  ████████████████████████████████████  PROGRAM
+}
 
+//>  ████████████████████████████████████  ACTUAL PROGRAM
+
+const another = new Circle(1);
+
+another.draw()
