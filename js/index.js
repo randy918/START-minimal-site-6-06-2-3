@@ -15,19 +15,23 @@
 //_  ████████████████████████████████████  FUNCTION FACTORIES
 
 
+class Person {
 
-function Circle(radius) {
-    this.radius, 
-    this.draw = function ()  {
-c('draw');
+    constructor(first, last) {
 
-    }
+this.first = first;
+this.last = last;
+}
+fullName() {
 
+    return `${this.first} ${this.last}`;
+}
 
 }
 
+
 //>  ████████████████████████████████████  ACTUAL PROGRAM
 
-const another = new Circle(1);
+const aGuy = new Person('jake', 'thomas');
 
-another.draw()
+c(aGuy.fullName());
