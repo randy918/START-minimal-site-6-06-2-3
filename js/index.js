@@ -1,6 +1,6 @@
 //?  ████████████████████████████████████  STRICT MODE
 
-'use strict'
+// 'use strict'
 
 //?  ████████████████████████████████████  IMPORTS
 
@@ -12,26 +12,8 @@
 //_  ████████████████████████████████████  VARIABLE EXPRESSIONS
 
 
-//_  ████████████████████████████████████  FUNCTION FACTORIES
+//_  ████████████████████████████████████  PROTOTYPES
 
-
-class Person {
-
-    constructor(first, last) {
-
-this.first = first;
-this.last = last;
-}
-fullName() {
-
-    return `${this.first} ${this.last}`;
-}
-
-}
 
 
 //>  ████████████████████████████████████  ACTUAL PROGRAM
-
-const aGuy = new Person('jake', 'thomas');
-
-c(aGuy.fullName());
